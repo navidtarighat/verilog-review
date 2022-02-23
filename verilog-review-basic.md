@@ -258,7 +258,7 @@ xnor(ans, input1, input2, ...);
     input1 = 1011, input2 = 1010, output = 00000000, end = 1, time = 490
 
 ## FSM
-- code of ["example2](./example2.v):
+- code of ["example2"](./example2.v):
     ```verilog
     // moor_fsm_demo
     module example2 (input_port1, output_port1, clk, reset);
