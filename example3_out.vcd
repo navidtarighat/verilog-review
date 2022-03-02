@@ -1,0 +1,124 @@
+$date
+	Wed Mar  2 12:53:24 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module example3_tb $end
+$var wire 8 ! output_sig [7:0] $end
+$var reg 1 " clk $end
+$var reg 1 # input_sig $end
+$var reg 1 $ reset $end
+$var integer 32 % i [31:0] $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # input_data $end
+$var wire 1 $ reset $end
+$var reg 8 & parallel_output [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+bx %
+1$
+x#
+0"
+bx !
+$end
+#10
+b0 !
+b0 &
+1"
+#15
+0$
+#20
+0"
+#25
+0#
+b0 %
+#30
+1"
+#40
+0"
+#45
+1#
+b1 %
+#50
+b10000000 !
+b10000000 &
+1"
+#60
+0"
+#65
+b10 %
+#70
+b11000000 !
+b11000000 &
+1"
+#80
+0"
+#85
+b11 %
+#90
+b11100000 !
+b11100000 &
+1"
+#100
+0"
+#105
+b100 %
+#110
+b11110000 !
+b11110000 &
+1"
+#120
+0"
+#125
+b101 %
+#130
+b11111000 !
+b11111000 &
+1"
+#140
+0"
+#145
+b110 %
+#150
+b11111100 !
+b11111100 &
+1"
+#160
+0"
+#165
+0#
+b111 %
+#170
+b1111110 !
+b1111110 &
+1"
+#180
+0"
+#185
+1#
+b1000 %
+#190
+b10111110 !
+b10111110 &
+1"
+#200
+0"
+#205
+b1001 %
+#210
+b11011110 !
+b11011110 &
+1"
+#220
+0"
+#225
+b1010 %
