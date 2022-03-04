@@ -4,7 +4,7 @@ input wire input_data, clk, reset;
 parameter WIDTH = 0;
 output reg [WIDTH:0] parallel_output;
 wire temp;
-always@(posedge clk) begin
+always@(posedge clk, posedge reset) begin
     if(reset == 1'b1) begin
         parallel_output = {WIDTH{1'b0}};
     end
