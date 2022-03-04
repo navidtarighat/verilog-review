@@ -20,16 +20,16 @@ reg [3:0] inpt1;
 wire [3:0] outpt1;
 ```
 ## Module Instantiation :
-- utt : unit under test
+- uut : unit under test
 - dut : design under test
     ### instantiation by order :
     ```verilog
-    my_module utt (clk, inpt1, outpt1);
+    my_module uut (clk, inpt1, outpt1);
     ```
     ### instantiation by name :
     order is not important.
     ```verilog
-    my_module utt (.clock (clk), .input1 (inpt1), .output1 (outpt1));
+    my_module uut (.clock (clk), .input1 (inpt1), .output1 (outpt1));
     ```
 ## Data types :
 ### integer :
@@ -168,9 +168,9 @@ end
 ```verilog
 initial begin
     input = 2'b00;
-    #10; input = 2'b01
-    #10; input = 2'b10
-    #10; input = 2'b11
+    #10; input = 2'b01;
+    #10; input = 2'b10;
+    #10; input = 2'b11;
     $finish
 end
 ```
