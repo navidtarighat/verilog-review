@@ -59,7 +59,7 @@ xnor(ans, input1, input2, ...);
     assign concurrent_output = input_1 & input_2;
     // same as "and(concurrent_output, input_1, input_2);"
 
-    always@(input_1 & input_2)
+    always@(input_1 , input_2)
         /* "always@(*)" or "always@*" could be used if you want
          the "sensitivity list" to contain all input ports*/
         sequential_output = input_1 & input_2;
